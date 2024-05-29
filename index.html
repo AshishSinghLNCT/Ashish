@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Certs Event</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="aicerts-logo.png" alt="Al Certs Logo" class="logo" width="140" height="35">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to AI Certs Event</h1>
+                <p>Join us for an exciting event on AI and Cybersecurity.</p>
+                <div id="countdown" class="countdown"></div>
+                <a href="#register" class="cta-button">Register Now</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <h2>About the Event</h2>
+            <p>This event is organised by AI Certs, will take place from 30 to 31 june 2024 at Capella Singapore. This apex event of AI Certs comprises invitation-only Plenary conference, covering a range of topics including Artificial Intelligence, Governance and Safety, Quantum Computing, Sustainability and Compute.
+               Event also features the ATxAI and Women and Youth in Tech conferences, alongside exclusive G2G events for government officials to address common digital concerns and G2B closed-door roundtables to facilitate closer partnerships between the public sector and the digital industry.</p>
+        </section>
+        
+        <section id="schedule" class="schedule">
+            <h2>Schedule</h2>
+            <div class="accordion">
+                <button class="accordion-button">Day 1</button>
+                <div class="accordion-content">
+                    <p>Plenary</p>
+                        <p>30 May 2024, 9.00am - 5.30pm
+                        Grand Ballroom</p>
+                </div>
+                <button class="accordion-button">Day 2</button>
+                <div class="accordion-content">
+                    <p>ATxAI</p>
+                        <p> 31 May 2024, 9.00am - 12.00pm
+                        Grand Ballroom</p>
+                    <p>Spotlight on Women and Youth in Tech</p>
+                    <p>31 June 2024, 1.30pm - 4.00pm
+                        Grand Ballrooms</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="speakers" class="speakers">
+            <h2>Speakers</h2>
+            <div class="tabs">
+                <button class="tab-button" onclick="openTab(event, 'speaker1')">Speaker 1</button>
+                <button class="tab-button" onclick="openTab(event, 'speaker2')">Speaker 2</button>
+            </div>
+            <div id="speaker1" class="tab-content">
+                <h3>Speaker 1</h3>
+                <img src="Tharman_Shanmugaratnam_Official_photo_2023.tif.jpg" alt="Al Certs Logo" class="logo" width="140" height="140">
+                <p>Mr Tharman Shanmugaratnam</p>
+                <p>President of the Republic of Singapore
+                    (Guest of Honour for AI Certs)
+                </p>
+            </div>
+            <div id="speaker2" class="tab-content">
+                <h3>Speaker 2</h3>
+                <img src="min-josephine---2bdb9f636e5284009b2768d632e777ea6.jpg" alt="Al Certs Logo" class="logo" width="140" height="140">
+                <p>Mrs Josephine Toe</p>
+                <p>Minister for Communication and Information and Minister-in-charge of Smart Nation</p>
+            </div>
+        </section>
+        
+        <section id="register" class="register">
+            <h2>Register</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Contact us at <a href="mailto:info@alcerts.com">info@alcerts.com</a></p>
+            <p>Follow us on 
+                <a href="https://facebook.com" target="_blank">Facebook</a>, 
+                <a href="https://twitter.com" target="_blank">Twitter</a>, 
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </p>
+            <p>© 2023 Al Certs. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy-policy">Privacy Policy</a>
+                <a href="#terms-of-service">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    
